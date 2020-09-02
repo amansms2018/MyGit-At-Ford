@@ -1,0 +1,77 @@
+
+<!-- saved from url=(0109)https://pixel.mathtag.com/sync/iframe?mt_uuid=2e465f41-cade-4b01-980c-d6046507ad78&no_iframe=1&mt_adid=225930 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<script type="text/javascript">
+try {
+   /**/
+(function() {
+    try {
+	var sync_4815162342 = function() {
+this.urls = [
+[0, "https://pixel.mathtag.com/misc/img?mop_seq=0:9&mt_cb=264338&mop_top="],
+[9, "https://pixel.rubiconproject.com/tap.php?v=4222&nid=1512&put=2e465f41-cade-4b01-980c-d6046507ad78&expires=28"],
+[10074, "https://cm.g.doubleclick.net/pixel?google_nid=mediamath_dmp&google_cm"],
+[66, "https://px.powerlinks.com/user/sync/dsps?userId=2e465f41-cade-4b01-980c-d6046507ad78&sourceId=aa4e7548-789b-4df8-a72f-d951a5b206eb"],
+[10042, "https://global.ib-ibi.com/image.sbxx?go=247256&pid=310&xid=2e465f41-cade-4b01-980c-d6046507ad78"],
+[10031, "https://beacon.krxd.net/usermatch.gif?partner=mediamath&_kdpid=8dd53e69-ae3f-4829-8f12-05cc5b57b288&mmuuid=2e465f41-cade-4b01-980c-d6046507ad78"],
+[36, "https://i.liadm.com/s/37464?bidder_id=7156&bidder_uuid=2e465f41-cade-4b01-980c-d6046507ad78"],
+[10040, "https://sync.crwdcntrl.net/map/c=4735/tp=MDMA/tpid=2e465f41-cade-4b01-980c-d6046507ad78"],
+[83, "https://match.sharethrough.com/sync/v1?source_id=sxJxpx7oBnWwaatGE8NyMg2D&source_user_id=2e465f41-cade-4b01-980c-d6046507ad78"],
+[10009, "https://aa.agkn.com/adscores/g.pixel?sid=9211132948&mt=2e465f41-cade-4b01-980c-d6046507ad78"],
+[0, "https://pixel.mathtag.com/misc/img?mop_seq=9:9&mt_cb=700176&check=2e465f41-cade-4b01-980c-d6046507ad78&mop_top=9:1599051076|10074:1599051076|66:1599051076|10042:1599051076|10031:1599051076|36:1599051076|10040:1599051076|83:1599051076|10009:1599051076|"]
+]
+this.progress = 0;
+	    var self = this;
+	    var tims = "";
+	    var errs = "";
+	    this.sync = function(i) {
+                var e = document.createElement("img");
+                var now = new Date();
+            if (e.addEventListener) {
+                e.addEventListener('load', function() {
+                    var temp = new Date().getTime() - now.getTime(); tims += self.urls[i][0]+':'+temp+"|";
+                });
+                e.addEventListener('error', function() {
+                    var temp = new Date().getTime() - now.getTime(); errs += self.urls[i][0]+':'+temp+"|";
+                });
+            }
+		    e.src = self.urls[i][1];
+	    }
+	    this.batch = function(){
+		    for (var i = self.progress; i < self.urls.length; ++i){
+		        self.sync(i);
+		    }
+	    }
+	    this.final = function(){
+            var e = document.createElement("img");
+            e.src = self.urls[self.urls.length-1][1]+"&final&timings="+tims+"&errors="+errs;
+	    }
+	    this.some = function(howmany){
+            var count = 0;
+            for (var i = self.progress; i < self.urls.length && count < howmany; ++i){
+                self.sync(i);
+                self.progress++;
+                count++;
+		    }
+	    }
+	}
+	var s_4815162342 = new sync_4815162342();
+	s_4815162342.some(1);
+	setTimeout(function(){s_4815162342.some(2);}, 1000);
+	setTimeout(s_4815162342.batch, 3000);
+	setTimeout(s_4815162342.final, 10000);
+    }
+    catch(ex) {
+	  document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=syncjs&what="+encodeURIComponent(ex.message);
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap_iframe&what="+encodeURIComponent(ex.message);
+}
+</script>
+
+
+</body></html>
